@@ -7,7 +7,6 @@ import zlib from 'zlib';
 import NodeState from 'node-state';
 import _ from 'underscore';
 import debug from 'debug';
-import { SnappyStream, UnsnappyStream } from 'snappystream';
 
 import * as wire from './wire';
 import FrameBuffer from './framebuffer';
