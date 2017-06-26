@@ -37,7 +37,7 @@
     "test": "mocha --compilers js:babel-core/register",
     "postinstall": "npm run build"
   },
-  "main": "src/nsq",
+  "main": "build/nsq",
   "engines": {
     "node": ">= 0.10.0"
   },
